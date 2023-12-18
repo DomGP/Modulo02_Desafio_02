@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: nav;
+  background-color: rgb(37, 82, 123);
+  /* height: 5vh; */
+  color: white;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  grid-area: aside;
+  background-color: rgb(230, 230, 230);
+  /* height: 90vh; */
+  padding-left: 1em;
+}
+aside h4 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+aside p {
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+}
+main {
+  grid-area: main;
+  background-color: rgb(230, 230, 230);
+  /* height: 90vh; */
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: footer;
+  background-color: rgb(37, 82, 123);
+  color: white;
+  /* height: 5vh; */
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: 1fr 15fr 1fr;
+  grid-template-areas:
+    "nav nav"
+    "aside main"
+    "footer footer";
+  height: 100vh;
+}
+.grid-cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border: solid 3px lightgray;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Imagenes de las cards */
+/* .card-img{
+    width: 500px;
+    height: 400px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit:cover;
+    border-radius: 7px;
+} */
+.product-img1 {
+  background-image: url("https://placedog.net/500/280");
+}
+.product-img2 {
+  background-image: url("https://placedog.net/501/280");
+}
+.product-img3 {
+  background-image: url("https://placedog.net/502/280");
+}
+.product-img4 {
+  background-image: url("https://placedog.net/503/280");
+}
+.product-img5 {
+  background-image: url("https://placedog.net/504/280");
+}
+.product-img6 {
+  background-image: url("https://placedog.net/505/280");
+}
+
+/* Atributos para los botones de las cards */
+button{
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(37, 82, 123);
+    padding: 1em;
+    border-radius: 5px;
+    width: 100%;
+}
+button:active{
+    background-color: rgb(78, 94, 110);
+}
