@@ -51,7 +51,10 @@ footer {
     font-size: larger;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    /* height: 5vh; */
+    position: fixed;
+    left: 0;
+   bottom: 0;
+   width: 100%;
 }
 footer i{
     padding-left: 0.5em;
@@ -65,7 +68,7 @@ footer i{
         "nav nav"
         "aside main"
         "footer footer";
-        height: 100vh;
+    height: 100vh;
 }
 .grid-cards {
     display: grid;
