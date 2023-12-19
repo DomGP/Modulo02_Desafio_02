@@ -12,7 +12,7 @@ nav {
     justify-content: center;
     align-items: center;
     grid-area: nav;
-    background-color: #7bdff2;
+    background-color: #ffa8bd;
     color: white;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -46,7 +46,7 @@ footer {
     justify-content: center;
     align-items: center;
     grid-area: footer;
-    background-color: #7bdff2;
+    background-color: #ffa8bd;
     color: white;
     font-size: larger;
     padding-top: 0.5em;
@@ -78,7 +78,7 @@ footer i{
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    border: solid 3px #f2b5d4;
+    border: solid 3px #9f6e6a;
     margin-top: 10px;
     margin-right: 10px;
     background-color: rgb(255, 255, 255);
@@ -105,12 +105,12 @@ button {
     border: none;
     cursor: pointer;
     color: white;
-    background-color: #f2b5d4;
+    background-color: #bd7a9d;
     padding: 0.7em;
     border-radius: 5px;
     width: 100%;
     font-size: 20px;
 }
 button:active {
-    background-color: #f7d6e0;
+    background-color: #ffa8bd;
 }
