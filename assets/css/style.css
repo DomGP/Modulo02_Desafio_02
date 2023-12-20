@@ -67,7 +67,7 @@ footer i{
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 6fr;
-    grid-template-rows: 1fr 20fr 1fr;
+    grid-template-rows: 1fr 10fr 1fr;
     grid-template-areas:
         "nav nav"
         "aside main"
@@ -89,7 +89,7 @@ footer i{
     margin-top: 10px;
     margin-right: 10px;
     background-color: rgb(255, 255, 255);
-    max-width: 21.875rem;
+    max-width: 21rem;
 }
 .card p{
     padding-top: 0.4em;
